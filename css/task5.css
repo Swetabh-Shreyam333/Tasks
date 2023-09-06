@@ -5,6 +5,7 @@
 
 table,th,td{
     border:1px solid black;
+    padding: 0;
    
 }
 
@@ -20,4 +21,21 @@ input{
 
 td{
     width:200px;
+}
+
+.extend{
+    width:400px;
+}
+
+textarea{
+    height: 100%;
+    width:100%;
+}
+
+label, input{
+    display: inline-block;
+}
+
+.cb{
+    width:5%;
 }
